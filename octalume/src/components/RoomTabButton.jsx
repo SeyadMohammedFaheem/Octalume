@@ -3,12 +3,12 @@ import React from "react";
 const RoomTabButton = ({ label, onClick, isActive, variant = "default" }) => {
   return (
     <button
-      className={`px-8 py-4 rounded-2xl ${
+      className={`px-6 py-4 rounded-2xl ${
         variant === "outline"
-          ? "border border-tertiary-button-border text-tertiary-button-text bg-transparent"
+          ? "border border-tertiary-button-border font-primary-h4 text-tertiary-button-text bg-transparent"
           : isActive
-          ? "bg-primary-button-fill text-primary-button-text"
-          : "bg-secondary-button-fill text-secondary-button-text"
+          ? "bg-primary-button-fill font-primary-h4 text-primary-button-text"
+          : "bg-secondary-button-fill font-primary-h4 text-secondary-button-text"
       }`}
       onClick={onClick}
     >

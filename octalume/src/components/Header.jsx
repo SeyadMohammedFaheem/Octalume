@@ -40,8 +40,19 @@ const Header = () => {
       </div>
       <div className="flex items-center space-x-4">
         {/* Profile Icons */}
-        <div className="w-10 h-10 rounded-full bg-gray-600"></div>
-        <div className="w-10 h-10 rounded-full bg-gray-600"></div>
+        <button
+          className="bg-primary-container-text text-white px-4 py-4 rounded-full"
+        >
+          <img
+        src="/src/assets/alert.svg"
+      />
+        </button>        
+        <div className="bg-primary-container-text text-white w-12 h-12 rounded-full">
+
+        <img
+        src="/src/assets/avatar.svg"
+      />
+        </div>
       </div>
     </div>
   );

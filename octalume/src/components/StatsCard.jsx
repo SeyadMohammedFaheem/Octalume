@@ -2,9 +2,9 @@ import React from 'react';
 
 const StatsCard = () => {
   return (
-    <div className="bg-gray-900 p-4 rounded-lg h-full">
-      <h2 className="text-white text-lg font-bold mb-4">Electricity Consumed</h2>
-      <p className="text-gray-400 mb-4">Peephole Cam (Video Doorbell)</p>
+    <div className="bg-primary-container-bg p-4 rounded-lg h-full">
+      <h2 className="text-primary-text text-lg font-bold mb-4">Electricity Consumed</h2>
+      <p className="text-secondary-text mb-4">Peephole Cam (Video Doorbell)</p>
 
       <div className="grid grid-cols-3 gap-4 h-56">
         <div className="bg-gray-700 rounded-lg h-full relative">
