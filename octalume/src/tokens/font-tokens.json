@@ -9,17 +9,17 @@
           "style": "normal"
         },
         "h2": {
-          "family": "Lufga",
-          "sizePx": "24px",
-          "sizeRem": "1.5rem",
+            "family": "Lufga",
+          "sizePx": "20px",
+          "sizeRem": "1.25rem",
           "weight": "400",
           "style": "normal"
         },
         "h3": {
           "family": "Lufga",
-          "sizePx": "20px",
-          "sizeRem": "1.25rem",
-          "weight": "400",
+          "sizePx": "18px",
+          "sizeRem": "1.125rem",
+          "weight": "500",
           "style": "normal"
         },
         "h4": {

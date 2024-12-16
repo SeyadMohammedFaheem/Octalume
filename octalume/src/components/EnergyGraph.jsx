@@ -2,7 +2,7 @@ import React from "react";
 
 const EnergyGraph = () => {
   return (
-    <div className="bg-primary-container-bg p-5 h-96 justify-between rounded-3xl">
+    <div className="bg-primary-container-bg p-5 h-full justify-between rounded-3xl">
       <div className="flex justify-between items-center text-sm text-gray-400">
       <div className="flex flex-col justify-between text-sm text-gray-400 gap-2">
 

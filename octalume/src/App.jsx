@@ -9,6 +9,9 @@ import ProgressCard from "./components/ProgressCard"; // Import ProgressCard
 import PeepholeCam from "./components/PeepholeCam"; // Import PeepholeCam
 import WifiCard from "./components/WifiCard"; 
 import SmartLightCard from "./components/SmartLightCard"; 
+import EnergySavedCard from "./components/EnergySavedCard";
+import EnergySavingList from "./components/EnergySavingList";
+
 
 const App = () => {
   return (
@@ -23,7 +26,7 @@ const App = () => {
             <EnergyGraph />
           </div>
           {/* Stats Card */}
-          <div className="w-1/3">
+          <div className="w-5/12">
             <StatsCard
               title="Energy Consumed by Rooms"
               details="Living Room"
@@ -31,9 +34,10 @@ const App = () => {
             />
           </div>
         </div>
-
+        <div className="flex flex-row gap-6">
+        <div className="flex flex-col gap-6 w-2/3">
         {/* Progress Card */}
-        <div className="w-2/3">
+        <div className="w-full">
           <ProgressCard
             deviceName="Vacuum Cleaner"
             subtitle="Peephole Cam (Video Doorbell)"
@@ -42,8 +46,8 @@ const App = () => {
           />
         </div>
         {/* Device Cards */}
-        <div className="flex flex-row gap-6 ">
-        <div className="flex flex-col gap-6 w-1/3 ">
+        <div className="flex flex-row gap-6 w-full">
+        <div className="flex flex-col gap-6 w-full">
       <div className="flex flex-col gap-6  ">
         <DeviceCard
           deviceName="Television"
@@ -67,13 +71,12 @@ const App = () => {
             type="warning"
           />
         </div>
-      
-      
-
-        
+        <div>
+        <EnergySavingList />
+    </div>
       </div>
 
-      <div className="flex flex-col gap-6 w-1/3 ">
+      <div className="flex flex-col gap-6 w-full ">
       {/* Peephole Cam */}
       
 
@@ -85,13 +88,22 @@ const App = () => {
       </div>
       </div>
       </div>
-
-      <div className="w-1/3">
+      </div>
+      <div className="flex flex-col gap-6 ">
+      <div className="">
           <PeepholeCam 
            deviceName="Vacuum Cleaner"
           subtitle="Peephole Cam (Video Doorbell)"
           />
         </div>
+        <div>
+        <EnergySavedCard />
+    </div>
+    </div>
+       
+      </div>
+
+      
 
       
 

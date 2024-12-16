@@ -1,26 +1,57 @@
-import React from 'react';
+import React from "react";
 
 const StatsCard = () => {
   return (
-    <div className="bg-primary-container-bg p-4 rounded-lg h-full">
-      <h2 className="text-primary-text text-lg font-bold mb-4">Electricity Consumed</h2>
-      <p className="text-secondary-text mb-4">Peephole Cam (Video Doorbell)</p>
+    <div className="bg-primary-container-bg p-5 h-full justify-between rounded-3xl">
+      {/* Graph Section */}
+      <div className="flex justify-between items-end gap-3">
+        {/* Bar 1 */}
+        <div className="flex flex-col items-center w-full gap-3">
+        <span className="text-secondary-text text-secondary-h3">100kWh</span>
+          <div className="bg-primary-container-text w-full h-20 rounded-2xl flex items-end justify-center">
+          </div>
+         
+          <div className="p-2 bg-primary-container-text text-primary-text w-full text-center text-secondary-h3 rounded-full" >Kidsroom
+          </div>
+        </div>
 
-      <div className="grid grid-cols-3 gap-4 h-56">
-        <div className="bg-gray-700 rounded-lg h-full relative">
-          <div className="bg-gradient-to-b from-gray-700 to-black absolute top-0 left-0 right-0 h-3/4 rounded-t-lg"></div>
-          <p className="text-white text-center absolute bottom-4 left-0 right-0">100kWh</p>
-          <p className="text-gray-400 text-center absolute bottom-2 left-0 right-0">Kids Room</p>
+        {/* Bar 2 */}
+        <div className="flex flex-col items-center w-full gap-3">
+        <span className="text-secondary-text text-secondary-h3">100kWh</span>
+          <div className="bg-primary-container-text w-full h-20 rounded-2xl flex items-end justify-center">
+          </div>
+         
+          <div className="p-2 bg-primary-container-text text-primary-text w-full text-center text-secondary-h3 rounded-full" >Bedroom
+          </div>
         </div>
-        <div className="bg-gray-700 rounded-lg h-full relative">
-          <div className="bg-gradient-to-b from-gray-700 to-black absolute top-0 left-0 right-0 h-2/3 rounded-t-lg"></div>
-          <p className="text-white text-center absolute bottom-4 left-0 right-0">150kWh</p>
-          <p className="text-gray-400 text-center absolute bottom-2 left-0 right-0">Bedroom</p>
+
+        {/* Bar 3 */}
+        <div className="flex flex-col items-center w-full gap-3">
+        <span className="text-secondary-text text-secondary-h3">200kWh</span>
+          <div className="bg-[#FBC02D] w-full  rounded-2xl flex items-end justify-center relative overflow-hidden">
+            <div className="bg-gradient-to-t from-[#7CB342] via-[#FBC02D] to-transparent w-full h-44 rounded-2xl"></div>
+          </div>
+          <div className="p-2 bg-primary-container-text text-primary-text w-full text-center text-secondary-h3 rounded-full" >Living Room
+          </div>
+         
         </div>
-        <div className="bg-gray-700 rounded-lg  relative">
-          <div className="bg-gradient-to-b from-green-500 to-yellow-500 absolute top-0 left-0 right-0 h-full rounded-t-lg"></div>
-          <p className="text-white text-center absolute bottom-4 left-0 right-0">200kWh</p>
-          <p className="text-gray-400 text-center absolute bottom-2 left-0 right-0">Living Room</p>
+
+        
+      </div>
+
+      {/* Footer Section */}
+      <div className="flex justify-between items-center mt-6">
+      <div className="flex flex-col justify-between text-sm text-gray-400 gap-2">
+
+<h2 className="font-primary text-primary-h2 text-primary-text gap-2">Electricity Consumed By Rooms</h2>
+<p className="text-secondary-text">Peephole Cam (Video Doorbell)</p>
+
+</div>
+
+        <div>
+        <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
+          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+        </button>
         </div>
       </div>
     </div>
