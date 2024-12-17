@@ -34,8 +34,8 @@ const App = () => {
             />
           </div>
         </div>
-        <div className="flex flex-row gap-6">
-        <div className="flex flex-col gap-6 w-2/3">
+        <div className="flex flex-row gap-5">
+        <div className="flex flex-col gap-5 w-2/3">
         {/* Progress Card */}
         <div className="w-full">
           <ProgressCard
@@ -46,9 +46,9 @@ const App = () => {
           />
         </div>
         {/* Device Cards */}
-        <div className="flex flex-row gap-6 w-full">
-        <div className="flex flex-col gap-6 w-full">
-      <div className="flex flex-col gap-6  ">
+        <div className="flex flex-row gap-5 w-full">
+        <div className="flex flex-col gap-5 w-full">
+      <div className="flex flex-col">
         <DeviceCard
           deviceName="Television"
           devicedesc="Peephole Cam (Video Doorbell)"
@@ -57,7 +57,7 @@ const App = () => {
        
         {/* wifi Cards */}
       
-        <div className="flex flex-col gap-6  ">
+        <div className="flex flex-col ">
         <WifiCard
           deviceName="Wifi"
           devicedesc="Home Network 5G"
@@ -76,11 +76,11 @@ const App = () => {
     </div>
       </div>
 
-      <div className="flex flex-col gap-6 w-full ">
+      <div className="flex flex-col gap-5 w-full ">
       {/* Peephole Cam */}
       
 
-        <div className="flex flex-col gap-6 ">
+        <div className="flex flex-col  ">
         <SmartLightCard
           deviceName="Smart Light"
           devicedesc="Auto Mode"
@@ -89,7 +89,7 @@ const App = () => {
       </div>
       </div>
       </div>
-      <div className="flex flex-col gap-6 ">
+      <div className="flex flex-col gap-5 ">
       <div className="">
           <PeepholeCam 
            deviceName="Vacuum Cleaner"

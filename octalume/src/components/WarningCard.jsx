@@ -3,7 +3,7 @@ import React from "react";
 const WarningCard = ({ message, type }) => {
   const color = type === "warning" ? "text-w" : "text-red-400";
   return (
-    <div className={`flex flex-col bg-primary-container-bg p-4  gap-5 rounded-3xl ${color}`}>
+    <div className={`flex flex-col bg-primary-container-bg p-5  gap-9 rounded-3xl ${color}`}>
             <div className="flex flex-row justify-between">
             <div className="flex flex-col justify-between">
       <h3 className="font-primary text-primary-h2 text-danger">Warning!!!</h3>

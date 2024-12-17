@@ -2,7 +2,7 @@ import React from "react";
 
 const EnergySavedCard = () => {
   return (
-    <div className="bg-secondary-container-bg rounded-2xl p-6 flex justify-between items-start shadow-md text-black w-full max-w-lg">
+    <div className="bg-secondary-container-bg rounded-3xl p-5 flex justify-between items-start shadow-md text-black w-full max-w-lg">
       {/* Content Section */}
       <div className="flex flex-col gap-2">
       <h2 className="font-primary text-primary-h2 text-primary-text-inverse gap-2">Electricity Consumed By Rooms</h2>

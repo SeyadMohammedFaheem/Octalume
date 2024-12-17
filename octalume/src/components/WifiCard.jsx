@@ -2,7 +2,7 @@ import React from 'react';
 
 const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, uploadSpeed }) => {
   return (
-    <div className="bg-primary-container-bg p-4 rounded-3xl">
+    <div className="bg-primary-container-bg p-5 rounded-3xl">
       <div className="flex justify-between items-center">
         <div>
           <h3 className="font-primary text-primary-h2">{deviceName}</h3>

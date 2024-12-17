@@ -2,7 +2,7 @@ import React from 'react';
 
 const SmartLightCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, uploadSpeed }) => {
   return (
-    <div className="bg-primary-container-bg p-4 rounded-3xl">
+    <div className="bg-primary-container-bg p-5 rounded-3xl">
       <div className="flex flex-col justify-between  gap-5 ">
       <div className="flex justify-between  items-center">
         <div>

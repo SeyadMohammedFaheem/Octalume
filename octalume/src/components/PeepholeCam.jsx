@@ -3,7 +3,7 @@ import React from 'react';
 const PeepholeCam = ({ deviceName, subtitle,}) => {
 
   return (
-    <div className="bg-primary-container-bg flex flex-col items-center justify-center p-4 gap-5 rounded-3xl">
+    <div className="bg-primary-container-bg flex flex-col items-center justify-center p-5 gap-5 rounded-3xl">
        <div className="relative ">
        <img src="/src/assets/camera feed.svg
        "  />

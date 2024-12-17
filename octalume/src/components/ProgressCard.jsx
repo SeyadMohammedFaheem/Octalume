@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProgressCard = ({ deviceName, subtitle, progress, timeLeft }) => {
   return (
-    <div className="bg-primary-container-bg text-white p-4 rounded-3xl flex flex-col items-center justify-between
+    <div className="bg-primary-container-bg text-white p-5 rounded-3xl flex flex-col items-center justify-between
     ">
       {/* Device Info */}
       <div className="flex flex-row w-full pb-5 justify-between">

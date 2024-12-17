@@ -21,13 +21,6 @@
           "sizeRem": "1.125rem",
           "weight": "500",
           "style": "normal"
-        },
-        "h4": {
-          "family": "Lufga",
-          "sizePx": "18px",
-          "sizeRem": "1.125rem",
-          "weight": "500",
-          "style": "normal"
         }
       },
       "secondary": {
